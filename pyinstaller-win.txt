@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --console --upx-dir "C:\ProgramData\chocolatey\lib\upx\tools\upx-3.96-win64" --add-data "D:/scott/timestamp scott.png;." --add-data "D:/scott/scott the woz template.png;." --add-data "D:/scott/Roboto.ttf;." --add-data "D:/scott/overlays;overlays/"  "D:/scott/scitt.py"
